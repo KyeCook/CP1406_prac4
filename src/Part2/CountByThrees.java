@@ -13,7 +13,7 @@ public class CountByThrees {
         for (int num = 3; num < 300; num += 3) {
             System.out.print(num + ", ");
             if(num % 30 == 0)
-                    System.out.println("\n");
+                    System.out.println("");
         }
     }
 }
